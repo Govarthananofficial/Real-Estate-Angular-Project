@@ -1,1 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
+/* Typography */
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* Semibold */
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500; /* Medium */
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* Semibold */
+}
+
+h4, h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500; /* Medium */
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #2B2B2B;
+}
+
+/* Buttons */
+button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button.primary {
+  background-color: #3A0CA3;
+  color: #FFFFFF;
+}
+
+button.primary:hover {
+  background-color: #4361EE;
+}
+
+button.secondary {
+  background-color: #FFFFFF;
+  color: #3A0CA3;
+  border: 2px solid #3A0CA3;
+}
+
+button.disabled {
+  background-color: #D4D4D4;
+  color: #808080;
+  cursor: not-allowed;
+}
+
+/* Colors */
+:root {
+  --primary-color: #3A0CA3;
+  --secondary-color: #4361EE;
+  --tertiary-color: #4CC9F0;
+  --highlight-color: #7209B7;
+  --accent-color: #F72585;
+
+  --black: #0B090A;
+  --dark-gray: #2B2B2B;
+  --medium-gray: #808080;
+  --light-gray: #AAAAAA;
+  --white: #FFFFFF;
+}
+
+/* Drop Shadow */
+.drop-shadow {
+  box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.1);
+}
