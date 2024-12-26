@@ -24,7 +24,7 @@
   width: 16px;
   height: 16px;
 }
-.icon-text{
+.icon-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,4 +52,163 @@
   justify-content: center;
   display: flex;
   align-items: center;
+}
+
+.nav-header {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  position: sticky;
+}
+
+.header-content {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.logo-text,
+.icon-Login-Register {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-small);
+}
+
+.logo-text3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-medium);
+}
+.home-logo {
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-color);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-logo img {
+  width: 24px;
+  height: 24px;
+}
+.logo-text a {
+  color: #1e1e1e;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.Login-Register-text a {
+  color: #1e1e1e;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.Add-Listing-Button {
+  padding: 16px 26px !important;
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-small);
+}
+
+.Add-Listing-Button-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lo-re-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Add-Listing-Button-text a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Login-Register-text a {
+  color: var(--text-color-2);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+.navbar {
+  position: relative;
+}
+
+.menu-items {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-items li {
+  position: relative;
+}
+
+.menu-items-li {
+  text-decoration: none;
+  color: var(--text-color-2);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0.5rem 0;
+  display: inline-block;
+}
+
+.menu-items-li::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  transition: width 0.5s ease, transform 0.5s ease;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) scaleX(1);
+  transform-origin: center;
+}
+
+
+.menu-items-li.active{
+  color: var(--primary-color);
+}
+.menu-items-li.active::before {
+  width: 100%;
+  transform: translateX(-50%) scaleX(1);
+}
+
+.menu-items-li:hover::before{
+  width: 100%;
+  transform: translateX(-50%) scaleX(1);
+}
+@media screen and (max-width: 780px) {
+  .header-top {
+    display: none;
+  }
 }
