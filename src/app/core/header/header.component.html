@@ -37,34 +37,111 @@
 <header class="container-fluid nav-header">
   <div class="container header-content">
     <div class="logo-text">
-      <div class="home-logo">
-        <img src="/assets/logo-home-icon.svg" alt="" />
+      
+      <div class="menu d-block d-lg-none" id="menu">
+        <i class="ri-menu-4-line"></i>
       </div>
+      <div class="d-none d-lg-block">
+        <div class="home-logo ">
+          <img src="/assets/logo-home-icon.svg" alt="" />
+        </div>
+      </div>
+      
       <p class="logo-text">
         <a href="#">Rezilla</a>
       </p>
     </div>
-    <div class="logo-text2">
+    <div class="logo-text2 d-none d-lg-block">
       <nav class="navbar">
-            <ul class="menu-items">
-                <li><a class="menu-items-li active" href="#">Home</a></li>
-                <li><a class="menu-items-li" href="#">About</a></li>
-                <li><a class="menu-items-li" href="#">Listings</a></li>
-                <li><a class="menu-items-li" href="#">Services</a></li>
-                <li><a class="menu-items-li" href="#">Blog</a></li>
-            </ul>
-    </nav>
+        <ul class="menu-items">
+          <li><a class="menu-items-li active" href="#">Home</a></li>
+          <li><a class="menu-items-li" href="#">About</a></li>
+          <li><a class="menu-items-li" href="#">Listings</a></li>
+          <li><a class="menu-items-li" href="#">Services</a></li>
+          <li><a class="menu-items-li" href="#">Blog</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="logo-text3">
-      <div class="icon-Login-Register">
-        <div class="lo-re-icon">
-          <img src="/assets/user-circle-alt.svg" alt="" />
+    <div class="d-none d-lg-block">
+      <div class="logo-text3">
+        <div class="icon-Login-Register">
+          <div class="lo-re-icon">
+            <img src="/assets/user-circle-alt.svg" alt="" />
+          </div>
+          <p class="Login-Register-text">
+            <a href="#">Login&Register</a>
+          </p>
         </div>
-        <p class="Login-Register-text">
-          <a href="#">Login&Register</a>
+        <div class="Add-Listing-Button">
+          <div class="Add-Listing-Button-icon">
+            <img src="/assets/add-home-icon-button.svg" alt="" />
+          </div>
+          <p class="Add-Listing-Button-text">
+            <a href="#">Add Listing</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<section class="mobile-view" id="mobile-view">
+  <div class="mobile-inner">
+    
+    <div class="d-flex justify-content-between align-items-center p-2">
+      <div class="mobile-view-logo-text">
+        <div class="mobile-view-home-logo">
+          <img src="/assets/logo-home-icon.svg" alt="" />
+        </div>
+        <p class="mobile-view-text">
+          <a href="#">Rezilla</a>
         </p>
       </div>
-      <div class="Add-Listing-Button">
+      <div class="close" id="close">
+        <i class="ri-close-fill"></i>
+      </div>
+    </div>
+    <hr />
+    <div class="mobile-view-logo-text2">
+      <nav class="navbar">
+        <ul class="mobile-view-menu-items">
+          <li>
+            <a class="mobile-view-menu-items-li active" href="#"
+              >Home <i class="ri-arrow-right-s-line"></i
+            ></a>
+          </li>
+          <li>
+            <a class="mobile-view-menu-items-li" href="#"
+              >About <i class="ri-arrow-right-s-line"></i
+            ></a>
+          </li>
+          <li>
+            <a class="mobile-view-menu-items-li" href="#"
+              >Listings <i class="ri-arrow-right-s-line"></i
+            ></a>
+          </li>
+          <li>
+            <a class="mobile-view-menu-items-li" href="#"
+              >Services <i class="ri-arrow-right-s-line"></i
+            ></a>
+          </li>
+          <li>
+            <a class="mobile-view-menu-items-li" href="#"
+              >Blog <i class="ri-arrow-right-s-line"></i
+            ></a>
+          </li>
+          <li>
+            <a class="mobile-view-menu-items-li" href="#"
+              >Login&Register<i class="ri-arrow-right-s-line"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <hr />
+    <div class="mobile-view-button">
+      <div class="mobile-view-Add-Listing-Button">
         <div class="Add-Listing-Button-icon">
           <img src="/assets/add-home-icon-button.svg" alt="" />
         </div>
@@ -74,4 +151,4 @@
       </div>
     </div>
   </div>
-</header>
+</section>
