@@ -3,11 +3,7 @@
 
 
 
-* {
-  box-sizing: border-box;
-  padding: 0px!important;
-  margin: 0px!important;
-}
+
 :root {
   /* Primary Colors */
   --primary-color: #3A0CA3;

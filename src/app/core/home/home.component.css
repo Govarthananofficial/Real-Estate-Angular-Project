@@ -1,0 +1,23 @@
+.hero {
+    background-image: url(/assets/image/hero-bg.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.real-estate-text p{
+    font-weight: medium;
+    font-size: 18px;
+    color: var(--primary-color)
+}
+.Find-a-perfect h1{
+    font-size: var(--font-h1);
+    font-weight: 600;
+    color: var(--text-color-1);
+}

@@ -1,5 +1,6 @@
 import { AfterViewInit, Component } from '@angular/core';
 declare function mobilemenu():any
+declare function sticky():any
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -10,6 +11,7 @@ declare function mobilemenu():any
 export class HeaderComponent implements AfterViewInit{
   ngAfterViewInit(): void {
     mobilemenu();
+    sticky();
   }
 
 }
