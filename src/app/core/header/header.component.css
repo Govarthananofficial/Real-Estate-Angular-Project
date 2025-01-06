@@ -242,6 +242,11 @@
   left: 0px;
   top: 0px;
 }
+.mobile-view-logo-text-header{
+  
+  padding: 10px !important;
+
+}
 .mobile-view-logo-text {
   display: flex;
   justify-content: start;
