@@ -21,8 +21,10 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
     "remixicon": "^4.6.0",
     "rxjs": "~7.8.0",
+    "slick-slider": "^1.8.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
   },

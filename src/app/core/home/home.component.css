@@ -4,15 +4,14 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .hero-section {
+  width: 100%!important;
+}
+.hero-content-box{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 }
 .real-estate-text p {
   font-weight: medium;
@@ -25,19 +24,19 @@
   color: var(--text-color-1);
 }
 .hero-content-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 28px;
 }
-.card-box{
+.card-box {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 540px;
+  height: 200px;
+  overflow: hidden;
+}
 
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.slider-box {
+.autoplay .element img {
   width: 100%;
   height: 200px;
-  background-color: #ccc;
+  object-fit: cover;
 }
