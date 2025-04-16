@@ -7,7 +7,8 @@
           <div class="real-estate-text">
             <p class="fw-bold">REAL ESTATE</p>
           </div>
-          <div class="Find-a-perfect">
+          <div class="Find-a-per
+          fect">
             <h1 class="fw-bold">Find a perfect home you love..!</h1>
           </div>
           <div class="subtitle">
@@ -19,9 +20,11 @@
         </div>
         
         <div class="autoplay card-box">
-          <div class="element"><img src="/assets/image/img-1.jpg" alt="" /></div>
-          <div class="element"><img src="/assets/image/img-2.jpg" alt="" /></div>
-          <div class="element"><img src="/assets/image/img-3.jpg" alt="" /></div>
+          @for (item of sliders; track $index) {
+          <div class="element"><img [src]="item.img" alt="" /></div>
+          }
+          <!-- <div class="element"><img src="/assets/image/img-2.jpg" alt="" /></div>
+          <div class="element"><img src="/assets/image/img-3.jpg" alt="" /></div> -->
         </div>
         
       </div>

@@ -1,0 +1,38 @@
+
+  .title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .title-line {
+    flex: 1;
+    height: 2px;
+    background-color: #8e44ad;
+    max-width: 100%;
+  }
+
+  .section-title h2 {
+    color: #4b0082;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .section-title p {
+    font-size: 1rem;
+    color: #444;
+    margin-top: 10px;
+  }
+
+  @media (max-width: 576px) {
+    .title-wrapper {
+      flex-direction: column;
+    }
+
+    .title-line {
+      max-width: 80px;
+    }
+  }
